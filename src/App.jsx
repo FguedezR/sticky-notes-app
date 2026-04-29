@@ -8,12 +8,13 @@ export default function App() {
     <ColorProvider>
       <div className="app">
         <header className="app-header">
-          <h1>Notas adhesivas</h1>
+          <h1>📌 Notas Adhesivas</h1>
           <ColorSelector />
         </header>
+        <main>
+          <NoteBoard />
+        </main>
       </div>
     </ColorProvider>
   );
 }
-
-export default App;
