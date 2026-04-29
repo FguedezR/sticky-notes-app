@@ -2,7 +2,7 @@ import { createContext, useState, useContext } from "react";
 
 export const ColorContext = createContext();
 
-export function ColorProvider({ childre }) {
+export function ColorProvider({ children }) {
   const [defaultColor, setDefaultColor] = useState("#fef08a");
 
   return (
